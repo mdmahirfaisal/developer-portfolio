@@ -1,0 +1,33 @@
+body{
+    /* font-family: 'Poppins', sans-serif; */
+ 
+}
+h1{
+    font-family: 'Kalam', cursive;
+}
+h1{
+    
+    font-size: 50px;
+}
+.name-color{
+    color: coral;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    font-family: 'Kalam', cursive;
+    text-decoration: none;
+    background-image:linear-gradient(to right,#ff6b81, #ff4757) ;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
