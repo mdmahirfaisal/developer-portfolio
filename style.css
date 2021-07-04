@@ -1,21 +1,25 @@
 body{
     margin: 0;
-    /* font-family: 'Poppins', sans-serif; */
  
 }
 h1{
     font-family: 'Kalam', cursive;
     font-size: 50px;
 }
-h1{
-    
-    
+h2, h3{
+    font-family: 'Kalam', cursive;
+
+}
+ p{
+    font-family: 'Poppins', sans-serif;
+
 }
 .name-color{
     color: coral;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -33,8 +37,22 @@ section{
     font-weight: 700;
     border-radius: 5px;
 }
+.link-button:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(to right,#ff4757,#ff6b81);
+    color: cyan;
+
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.dream-big{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+
 }
