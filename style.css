@@ -1,13 +1,15 @@
 body{
+    margin: 0;
     /* font-family: 'Poppins', sans-serif; */
  
 }
 h1{
     font-family: 'Kalam', cursive;
+    font-size: 50px;
 }
 h1{
     
-    font-size: 50px;
+    
 }
 .name-color{
     color: coral;
@@ -30,4 +32,9 @@ section{
     padding: 10px 30px;
     font-weight: 700;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
 }
