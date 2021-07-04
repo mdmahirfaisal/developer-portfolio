@@ -37,12 +37,14 @@ h2, h3{
     padding: 10px 30px;
     font-weight: 700;
     border-radius: 5px;
+    transition: .3s;
 }
 .link-button:hover{
+    font-size: 17px;
     text-decoration: underline;
     background-image: linear-gradient(to right,#ff4757,#ff6b81);
-    color: cyan;
-
+    color: rgb(222, 238, 238);
+    
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -86,6 +88,13 @@ h2, h3{
     border-image-slice: 1;
 }
 footer p{
+    background:center ;
     text-align: center;
+    transition: 1s;
 
+}
+footer p:hover{
+    font-size: 20px;
+    background-color: rgb(243, 58, 11);
+    color: rgb(247, 255, 255);
 }
